@@ -2,3 +2,28 @@ h1 {
   display: flex;
   align-items: center;
 }
+
+.project-img {
+  width: 100%;
+}
+
+.card-btn {
+  padding: 0 0 1.25rem 1.23rem;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+}
+.footer-contact {
+  padding-top: 1rem;
+}
+
+.fab,
+.fas {
+  opacity: 0.75;
+  color: #999999;
+}
+.footer-copyright {
+  padding: 1rem 0 0 0;
+}
