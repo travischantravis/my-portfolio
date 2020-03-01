@@ -3,6 +3,7 @@ html {
 }
 
 body {
+  font-family: "Roboto", sans-serif;
 }
 
 main {
@@ -13,10 +14,12 @@ section {
   height: 100vh;
   position: relative;
 }
-/* Page 1 */
 
+/* Page 1 */
 .page1 {
   position: relative;
+  display: flex;
+  justify-content: center;
 }
 
 /* using ::before because we want to apply opacity to bg image only */
@@ -33,13 +36,27 @@ section {
 
 .page1-profile {
   position: absolute;
-  background: transparent;
+  top: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-pic {
+  width: 150px;
+  border-radius: 50%;
+}
+.profile-name {
+  font-family: "Sue Ellen Francisco", sans-serif;
+  font-size: 70px;
+}
+.profile-desc {
+  font-family: "Sue Ellen Francisco", sans-serif;
+  font-size: 30px;
 }
 
 /* Page 2 */
-.page2 {
-  /* position: absolute; */
-}
+
 .project-img {
   width: 100%;
 }
