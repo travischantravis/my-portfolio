@@ -207,6 +207,22 @@ footer {
 }
 
 /* Responsiveness */
+@media (max-width: 768px) {
+  .project1 {
+    display: block;
+    margin-bottom: 40px;
+  }
+  .project-title,
+  .project-desc,
+  .project-img-link,
+  .project-img {
+    margin-bottom: 20px;
+  }
+  .project-tools {
+    margin-bottom: 30px;
+  }
+}
+
 @media (min-width: 768px) {
   .container {
     width: 750px;
