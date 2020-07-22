@@ -128,18 +128,25 @@ section {
   font-size: 1.5rem;
   grid-column: 1/2;
   grid-row: 1/2;
+  margin-bottom: 10px;
+}
+
+.project-date {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  color: #999;
 }
 
 .project-desc {
   grid-column: 1/2;
-  grid-row: 2/3;
+  grid-row: 3/4;
   margin-right: 10px;
   line-height: 30px;
 }
 
 .project-tools {
   grid-column: 1/2;
-  grid-row: 3/4;
+  grid-row: 4/5;
 }
 
 .project-tools span {
@@ -149,6 +156,11 @@ section {
   border-radius: 10px;
   margin: 5px;
   display: inline-block;
+}
+
+.project-tools span a {
+  text-decoration: none;
+  color: white;
 }
 
 .project-img-link {
