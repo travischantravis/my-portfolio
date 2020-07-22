@@ -92,6 +92,7 @@ section {
 .profile-desc {
   font-family: "Sue Ellen Francisco", sans-serif;
   font-size: 30px;
+  text-align: center;
 }
 
 .down-arrow {
@@ -153,6 +154,9 @@ section {
 .project-img-link {
   grid-column: 2/3;
   grid-row: 1/4;
+  display: flex;
+  justify-content: center;
+  height: min-content;
 }
 .project-img {
   width: 100%;
@@ -162,6 +166,10 @@ section {
 }
 .project-img:hover {
   transform: scale(1.05);
+}
+
+.project-img-mobile {
+  width: 50%;
 }
 
 .project-link {
