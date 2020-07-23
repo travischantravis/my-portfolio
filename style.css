@@ -176,6 +176,7 @@ section {
 .img-mobile {
   max-width: 50%;
   max-height: 300px;
+  height: auto;
 }
 
 .project-link {
